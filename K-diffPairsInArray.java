@@ -19,7 +19,7 @@ class Solution {
                 if(map.get(key)>1)
                     count++;
             }else {
-                if(map.containsKey(key+k))
+                if(map.containsKey(key - k))
                     count++;
             }
         }
